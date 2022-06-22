@@ -12,17 +12,18 @@ background: '/img/posts/waste assist.jpg'
 <p>This project is to help people classify their waste accurately to improve residential waste sorting and also reduce material contamination thereby optimizing the process in recycling facilities for waste sorting.</p>
 
 <p>This is achieved by designing an app for waste classification and detection using convolutional neural network(CNN) and transfer learning as well as creating an object detection model for sorting at the recyling facilities.</p>
-<p>app_link <a href="https://wasteassist.herokuapp.com/">waste-assist-app</a>.</p>
+
 
 
 <h2 class="section-heading">Dataset</h2>
 <p>Dataset derived from TrashNet by Gary Thung and Mindy Yang with seven categories <a href="https://github.com/sarahmfrost/compostnet ">https://github.com/sarahmfrost/compostnet </a> and merged with recylable materials by Minho Heo <a href="https://www.kaggle.com/minhoheo/recyable-materials">https://www.kaggle.com/minhoheo/recyable-materials</a></p>
 <p>additional images was obtained form friends, collegues and google image</p>
 
-![waste categories](/img/posts/waste categories.jpg)
-     
+![waste categories](/img/posts/waste categories.jpg)  
 <p>Around 3000 images in total , divided into a 80%/20% Train/Validation set.</p>
 ![urgumented image](/img/posts/Urgumented Images.jpg)
+
+
 
 <h2 class="section-heading">Models</h2>
 <p>An initial base model of Convolutional Neural Network with arround 11 million trianable parameters gave an accuracy of 62% which is higher than the baseline accuracy of 14% (1/7)</p>
@@ -38,8 +39,16 @@ background: '/img/posts/waste assist.jpg'
 
 
 <h2 class="section-heading">App and Model Deployment</h2>
-
-
+<p>The packaged(packgenlite tool) python code is uploaded on GCP and wth the power of cloud computing, the model is trained on the google cloud virtual machine (AI Platform)</p>
+<p>The app is finally deployed through the followig processes</p>
+* Build your predictive API with FastAPI
+* Build a user interface with Streamlit
+* Mount the API in a Docker container
+* Plug your API to a user interface to build a predictive product
+* Deploy the API on Google Cloud Run to make prediction in production
+* Deploy a user interface on Heroku for your predictive product
+<p>app_link <a href="https://wasteassist.herokuapp.com/">waste-assist-app</a>.</p>
+![deployment apps](/img/posts/deployment apps.jpg)
 
 <h2 class="section-heading">Performance</h2>
 
