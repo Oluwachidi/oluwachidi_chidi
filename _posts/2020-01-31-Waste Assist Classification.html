@@ -18,19 +18,19 @@ background: '/img/posts/waste assist.jpg'
 <h2 class="section-heading">Dataset</h2>
 <p>Dataset derived from TrashNet by Gary Thung and Mindy Yang with seven categories <a href="https://github.com/sarahmfrost/compostnet ">https://github.com/sarahmfrost/compostnet </a> and merged with recylable materials by Minho Heo <a href="https://www.kaggle.com/minhoheo/recyable-materials">https://www.kaggle.com/minhoheo/recyable-materials</a></p>
 <p>additional images was obtained form friends, collegues and google image</p>
-<img src="https://i.ibb.co/pQB7hGz/waste-categories.jpg" width="1000" alt="waste-categories" border="0">
+<img src="https://i.ibb.co/pQB7hGz/waste-categories.jpg" width="800" alt="waste-categories" border="0">
 <p>Around 3000 images in total , divided into a 80%/20% Train/Validation set.</p>
-![urgumented image](/img/posts/Urgumented Images.jpg)
+<img src="https://i.ibb.co/7YF2KDt/Urgumented-Images.jpg" alt="Urgumented-Images" border="0">
 
 
 
 <h2 class="section-heading">Models</h2>
 <p>An initial base model of Convolutional Neural Network with arround 11 million trianable parameters gave an accuracy of 62% which is higher than the baseline accuracy of 14% (1/7)</p>
-<p>![base model](../img/posts/base model.jpg)</p>
+<img src="https://i.ibb.co/YtpxvX5/base-model.jpg" alt="base-model" border="0">
 <p>The model is further optimized through a Transfer Learning model known as ResNet152V2.</P>
-<p>![ResNet152V2](../img/posts/ResNet152V2.jpg)</p>
+<img src="https://i.ibb.co/NWgk4Ty/Res-Net152-V2.jpg" alt="Res-Net152-V2" border="0">
 <p>It is a Deep Residual Network with 152 layers of around 58 million pre-trained parameters and about 14000 trainable parameters.</p>
-<img class="img-model" ![ResNet_Model](../img/posts/ResNet_Model.jpg) alt="ResNet_Model">
+<img src="https://i.ibb.co/Fzc0rc0/Res-Net-Model.jpg" alt="Res-Net-Model" border="0">
 <p>A test accuracy of 84% was achived without any Hyper-parameter tunning</p>
 <p>Finally, a single neural network called YOLOv5 is applied to the full image divided into regions for a real time object detection</p>
 <p>See link for a real time demo: <a href="https://www.youtube.com/watch?v=8IQFmcnqFHA">Live-object-detection-video</a></p>
