@@ -5,7 +5,7 @@ subtitle: ""
 background: '/img/posts/waste assist.jpg'
 ---
 
-<h3<p>github link <a href="https://github.com/Oluwachidi/waste-assist">waste-assist</a>.</p></h3>
+<h2<p><a href="https://github.com/Oluwachidi/waste-assist">github link</a>.</p></h2>
 
 <h2 class="section-heading">Introduction</h2>
 <p>Material mismatches and incorrect input cause expensive delays at sorting and processing  facilities</p>
@@ -13,7 +13,7 @@ background: '/img/posts/waste assist.jpg'
 
 <p>This is achieved by designing an app for waste classification and detection using convolutional neural network(CNN) and transfer learning as well as creating an object detection model for sorting at the recyling facilities.</p>
 <p>app_link <a href="https://wasteassist.herokuapp.com/">waste-assist-app</a>.</p>
-<p>demo_link <a href="https://www.youtube.com/watch?v=8IQFmcnqFHA">Live-object-detection-video</a>.</p>
+
 
 <h2 class="section-heading">Dataset</h2>
 <p>Dataset derived from TrashNet by Gary Thung and Mindy Yang with seven categories <a href="https://github.com/sarahmfrost/compostnet ">https://github.com/sarahmfrost/compostnet </a> and merged with recylable materials by Minho Heo <a href="https://www.kaggle.com/minhoheo/recyable-materials">https://www.kaggle.com/minhoheo/recyable-materials</a></p>
@@ -29,6 +29,15 @@ background: '/img/posts/waste assist.jpg'
 <p>Using pretrained YOLOv5 for real time object detection.</p>
 
 <h2 class="section-heading">App and Model Deployment</h2>
+<p>An initial base model of Convolutional Neural Network with arround 11 million trianable parameters gave an accuracy of 62% which is higher than the baseline accuracy of 14% (1/7)</p>
+<p>![base model](../img/posts/base model.jpg)</p>
+<p>The model is further optimized through a Transfer Learning model known as ResNet152V2.</P>
+<p>![ResNet152V2](../img/posts/ResNet152V2.jpg)</p>
+<p>It is a Deep Residual Network with 152 layers of around 58 million pre-trained parameters and about 14000 trainable parameters.</p>
+<img class="img-model" ![ResNet_Model](../img/posts/ResNet_Model.jpg) alt="ResNet_Model">
+<p>A test accuracy of 84% was achived without any Hyper-parameter tunning</p>
+<p>Finally, a single neural network called YOLOv5 is applied to the full image divided into regions for a real time object detection</p>
+<p>See link for a eal time demo: <a href="https://www.youtube.com/watch?v=8IQFmcnqFHA">Live-object-detection-video</a></p>
 
 
 <h2 class="section-heading">Performance</h2>
