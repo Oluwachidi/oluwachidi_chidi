@@ -19,7 +19,7 @@ background: '/img/posts/credict card fraud.png'
   called “Class” which is the target variable having the value of 1 being “Fraud” and zero means “Norma</p>
 
 <img src="Imbalanced_dataset.jpg" width="800" alt="waste-categories" border="0">
-<code>pd.Series(y).value_counts()</code>
+
 
 <p>☝️ in this `fraud detection` project, **the classes are extremely imbalanced**:</p>
 <ul>
@@ -32,8 +32,10 @@ background: '/img/posts/credict card fraud.png'
 <code>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)</code>
 <code>X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.3)</code>
 
-<p>**Second**, I rebalance the training set by use Synthetic Minority Oversampling Technique(SMOTE) to generate new datapoints by weighting the existing ones 
+<p>Second, I rebalance the training set by use Synthetic Minority Oversampling Technique(SMOTE) to generate new datapoints by weighting the existing ones 
   and  RandomUnderSampler to downsample a little bit the majority class</p>
+![Resampling code snippet](/img/Resampling code snippet.jpg)
+![before and after balancing](/img/before and after balancing.jpg)
 
 
 
