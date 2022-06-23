@@ -13,8 +13,19 @@ background: '/img/posts/credict card fraud.png'
 
 
 
-<h2 class="section-heading">Dataset</h2>
+<h2 class="section-heading">Rebalancing Dataset</h2>
+<p>This dataset contains 284,807 transactions,out of which 492 belong to fraudulent transactions, 
+  which represents 0.17% of overall transactions. There are 31 columns in the data, one being 
+  called “Class” which is the target variable having the value of 1 being “Fraud” and zero means “Norma</p>
+<code>#Let's check class balance
+pd.Series(y).value_counts()</code>
 
+<p>☝️ in this `fraud detection` project, **the classes are extremely imbalanced**:</p>
+<ul>
+  <li>99.8 % of normal transactions</li>
+  <li>0.2 % of fraudulent transactions</li>
+</ul>
+<p>We won't be able to detect frauds unless we apply some serious rebalancing strategies!</p>
 
 
 <h2 class="section-heading">Models</h2>
