@@ -17,15 +17,24 @@ background: '/img/posts/credict card fraud.png'
 <p>This dataset contains 284,807 transactions,out of which 492 belong to fraudulent transactions, 
   which represents 0.17% of overall transactions. There are 31 columns in the data, one being 
   called “Class” which is the target variable having the value of 1 being “Fraud” and zero means “Norma</p>
-<code>#Let's check class balance
-pd.Series(y).value_counts()</code>
+
+<img src="Imbalanced_dataset.jpg" width="800" alt="waste-categories" border="0">
+<code>pd.Series(y).value_counts()</code>
 
 <p>☝️ in this `fraud detection` project, **the classes are extremely imbalanced**:</p>
 <ul>
   <li>99.8 % of normal transactions</li>
   <li>0.2 % of fraudulent transactions</li>
 </ul>
-<p>We won't be able to detect frauds unless we apply some serious rebalancing strategies!</p>
+<p>We won't be able to detect frauds unless we apply some serious rebalancing strategies! This was achived in two steps:</p>
+<p>First, I create three separate Train/Val/Test splits from the dataset. It is extremely important to keep validation and 
+  testing sets not rebalanced so as to evaluate your model in true conditions without data leak.</p>
+<code>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)</code>
+<code>X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.3)</code>
+
+<p>**Second**, I rebalance the training set by use Synthetic Minority Oversampling Technique(SMOTE) to generate new datapoints by weighting the existing ones 
+  and  RandomUnderSampler to downsample a little bit the majority class</p>
+
 
 
 <h2 class="section-heading">Models</h2>
