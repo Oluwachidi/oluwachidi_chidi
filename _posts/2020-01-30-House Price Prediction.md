@@ -11,18 +11,35 @@ background: '/img/posts/house price image.jpeg'
 
 
 <h2 class="section-heading">Introduction</h2>
-<p>Material mismatches and incorrect input cause expensive delays at sorting and processing  facilities</p>
+<p>With 79 explanatory variables describing (almost) every aspect of residential homes, this project is aimed to predicting the final price of each home using Advanced regression techniques (like random forest and gradient boosting) and Creeative feature engineering</p>
+<p>The dataset was compiled by Dean De Cock </p>
 
 
 
 <h2 class="section-heading">Dataset</h2>
-<p>Dataset derived from TrashNet by Gary Thung and Mindy Yang with seven categories <a href="https://github.com/sarahmfrost/compostnet 
-<img src="https://i.ibb.co/7YF2KDt/Urgumented-Images.jpg" width="800" alt="Urgumented-Images" border="0">
+<p>The dataset contains about 1460 rows(homes) and 80 columns(feautures) including the target; SalePrice</p>
+<img src="https://load data.jpg" width="800" alt="load data" border="0">
+
+<p>This 80 columns are a combination of Categorical and numeric feature with lots of missing values(NaN). Features that bring too little esplanation to the model is removed. Then a basic preprocessing pipeline is designed as follows:</p>
+
+<p>For categorical features</p>
+<ul>
+  <li>Simple-Impute with most frequent values</li>
+  <li>One-Hot-Encode features that have less than 7 unique values to start with</li>
+  <li>Drop all others features</li>
+</ul>
+
+<p>As for numerical features</p>
+<ul>
+  <li>Simple-Impute with strategy 'mean'</li>
+  <li>Min-Max Scale</li>
+</ul>
+<img src="https://preproc_baseline.jpg" width="800" alt="preproc_baseline" border="0">
 
 
 
 <h2 class="section-heading">Models</h2>
-<p>An initial base model of Convolutional Neural Network with arround 11 million trianable parameters gave an accuracy of 62% which is higher than the baseline accuracy of 14% (1/7)</p>
+<p>First let's pipeline a baseline model for predicting a baseline score</p>
 
 
 
