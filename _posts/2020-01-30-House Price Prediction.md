@@ -57,19 +57,3 @@ background: '/img/posts/house price image.jpeg'
 <p>The model is further optimised using Neural Networks</p>
 <img src="https://Neural_Networks.jpg" width="800" alt="Neural_Networks" border="0">
 
-
-
-<h2 class="section-heading">App and Model Deployment</h2>
-<ul>
-  <li>Build a predictive API with FastAPI</li>
-</ul>
-
-<p>app_link <a href="https://wasteassist.herokuapp.com/">waste-assist-app</a>.</p>
-
-  
-  
-  
-
-<h2 class="section-heading">Performance</h2>
-<p>The software can now... </p>
-
