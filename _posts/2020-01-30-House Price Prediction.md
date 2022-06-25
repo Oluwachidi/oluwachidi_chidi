@@ -39,9 +39,23 @@ background: '/img/posts/house price image.jpeg'
 
 
 <h2 class="section-heading">Models</h2>
-<p>First let's pipeline a baseline model for predicting a baseline score</p>
+<p>First I pipelined a baseline model to make a baseline prediction. Created a performance metric (rmsle) using make_scorer then perform a 5-fold cross validation to achive a 17% baseline score which is stored for future comparison.</p>
+<img src="https://baseline_score.jpg" width="800" alt="baseline_score" border="0">
 
+<p>Now is time to optimize the model but first, the features have to preprocessed further by:</p>
+<ul>
+  <li>Ordinal Encoding of categorical features with a hidden notion of order in their values (e.g. "bad", "average", good")</li>
+  <li>Target engineering by transforming our target to directly predict its log (i.e y_log). Normally distributed variables should be easier to predict with linear models. <img src="https://target_engineering.jpg" width="800" alt="target_engineering" border="0"></li>
+  <li>Statistical Feature Selection to remove useless features (avoid overfitting and reduce train time). This is done by using Spearman's rank correlation combined with a heatmap to know whether some ordinally encoded and numeric features are almost entirely "ordered" similarily than others or almost entirely explain others respectively. Then, create a "filter" in the pipeline that removes any correlation below a certain threshold. <img src="https://feature_selection.jpg" width="800" alt="feature_selection" border="0"></li>
+</ul>
+<p>A final preprocessed pipeline is compiled</p>
+<img src="https://final_preproc_pipeline.jpg" width="800" alt="final_preproc_pipeline" border="0">
 
+<p>Iterate accross different models(e.g linear models, KNN, SVM, Trees, Random Forest, XGBOOST etc), to discover the model with the best validation score. In this case, XGBOOST</p>
+<img src="https://Best_validation_model.jpg" width="800" alt="Best_validation_model" border="0">
+
+<p>The model is further optimised using Neural Networks</p>
+<img src="https://Neural_Networks.jpg" width="800" alt="Neural_Networks" border="0">
 
 
 
