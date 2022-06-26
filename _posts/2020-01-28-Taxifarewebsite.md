@@ -9,7 +9,7 @@ background: '/img/posts/Taxifare.jpg'
 
 
 <h2 class="section-heading">Introduction</h2>
-<p></p>
+<p>The goal is to predict the fare amount (inclusive of tolls) for a taxi ride in New York City given the pickup and dropoff locations.</p>
 
 
 
