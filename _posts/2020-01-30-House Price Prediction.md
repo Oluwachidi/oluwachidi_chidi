@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "House Price Prediction"
+subtitle: "Making prediction for residential homes"
 background: '/img/posts/house price image.jpeg'
 ---
 
