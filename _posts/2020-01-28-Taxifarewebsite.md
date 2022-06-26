@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Taxifarewebsite"
-subtitle: ""
+subtitle: "Predict the fare amount (inclusive of tolls) for a taxi ride in New York City"
 background: '/img/posts/Taxifare.jpg'
 ---
 
