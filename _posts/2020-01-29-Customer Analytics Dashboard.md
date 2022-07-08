@@ -9,7 +9,7 @@ background: '/img/Customer_analytics_istockphoto.jpg'
 <h4>Poject Description</h4>
 <p>The objective of this dashboard is to analyse how each of the customer's segements are perfoming across various metrics like:</p>
 <ul>
-  <li>***Product categories***</li>
+  <li>Product categories</li>
   <li>Regions</li>
   <li>Order Priority</li>
 </ul>
@@ -17,7 +17,7 @@ background: '/img/Customer_analytics_istockphoto.jpg'
 
 
 <h4>KPI for each Customer Segements</h4>
-<p>All the customers have been categorised into four segements(i.e Consumer, Corporate, Home office and Small Business) and the performance index is a DISTINCTCOUNT of each customer orders fitered as per thier segements</p>
+<p>All the customers have been categorised into four segements(i.e Consumer, Corporate, Home office and Small Business) and the performance index is a DISTINCTCOUNT of each customer orders filtered as per thier segements</p>
 <img src="https://i.ibb.co/zhStV5h/Customer-Segements.jpg" width="800" alt="Customer-Segements" border="0">
 
 
