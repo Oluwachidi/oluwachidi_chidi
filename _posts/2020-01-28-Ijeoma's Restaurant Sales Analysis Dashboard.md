@@ -6,7 +6,7 @@ background: '/img/Restaurant_background.jpg'
 ---
 
 
-<h4class="section-heading">Explorations</h4>
+<h4 class="section-heading">Explorations</h4>
 <p>The objective of this Dashboard is to enable Ijeoma's restaurant to make informed decision before opening up a branch in Ogudu city. This was achived by undersanding the following:</p>
 <ul>
   <li>Which type of restaurants are currently in Ogudu</li>
@@ -20,19 +20,24 @@ background: '/img/Restaurant_background.jpg'
 <img src="https://i.ibb.co/9nNQLZD/Imbalanced-dataset.jpg" width="800" alt="Restaurant_types" border="0">
 
 <h4 class="section-heading">Most prefered locations</h4>
-<p></p>
+
+*****Prefered_Locations**********
 
 <h4 class="section-heading">Favourite Cuisines</h4>
-<p></p>
+
+*****Favourite_cousines**********
 
 <h4 class="section-heading">The top 10 restaurants per given location, cuisine or rstaurant type</h4>
-<p></p>
+
+*****top 10 restaurants**********
 
 <h4 class="section-heading">Customer's approach to restaurants: Booking onlne and the No of table booked</h4>
-<p></p>
+
+*****Online_Table_Booking**********
 
 <h4 class="section-heading">Average spending of Lagosianss and there Ratings</h4>
-<p></p>
+
+*****Average spending_Rating**********
 
 
 <h4 class="section-heading">Conclusion</h4>
