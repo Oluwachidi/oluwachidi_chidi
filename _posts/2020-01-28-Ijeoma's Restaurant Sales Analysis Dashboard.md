@@ -6,7 +6,7 @@ background: '/img/Restaurant_background.jpg'
 ---
 
 
-<h3 class="section-heading">Explorations</h3>
+<h4class="section-heading">Explorations</h4>
 <p>The objective of this Dashboard is to enable Ijeoma's restaurant to make informed decision before opening up a branch in Ogudu city. This was achived by undersanding the following:</p>
 <ul>
   <li>Which type of restaurants are currently in Ogudu</li>
@@ -16,23 +16,32 @@ background: '/img/Restaurant_background.jpg'
   <li>Which are the top ten restaurants in Ogudu</li>
 </ul>
 
-<h3 class="section-heading">Types of Restaurants in Ogudu</h3>
-<img src="https://i.ibb.co/9nNQLZD/Imbalanced-dataset.jpg" width="800" alt="Imbalanced-dataset" border="0">
+<h4 class="section-heading">Types of Restaurants in Ogudu</h4>
+<img src="https://i.ibb.co/9nNQLZD/Imbalanced-dataset.jpg" width="800" alt="Restaurant_types" border="0">
 
-<h3 class="section-heading">Most prefered locations</h3>
+<h4 class="section-heading">Most prefered locations</h4>
 <p></p>
 
-<h3 class="section-heading">Favourite Cuisines</h3>
+<h4 class="section-heading">Favourite Cuisines</h4>
 <p></p>
 
-<h3 class="section-heading">The top 10 restaurants per given location, cuisine or rstaurant type</h3>
+<h4 class="section-heading">The top 10 restaurants per given location, cuisine or rstaurant type</h4>
 <p></p>
 
-<h3 class="section-heading">Customer's approach to restaurants: Booking onlne and the No of table booked</h3>
+<h4 class="section-heading">Customer's approach to restaurants: Booking onlne and the No of table booked</h4>
 <p></p>
 
-<h3 class="section-heading">Average spending of Lagosianss and there Ratings</h3>
+<h4 class="section-heading">Average spending of Lagosianss and there Ratings</h4>
 <p></p>
 
-<h3 class="section-heading">Conclusion</h3>
-<p></p>
+
+<h4 class="section-heading">Conclusion</h4>
+<p>In conclusion we are able to determine that the ideal target
+customer is most likely a male between the ages of 26 39 years
+of age and is likely a subscriber and we can see that the busiest
+days for rentals are Tuesdays and Wednesdays, although any day
+during the week has a higher likelihood of rental than compared
+to weekends. We can also see that stations along the shore are
+much busier than stations located inland. We can also determine
+that the usage is much higher on the San Francisco side of the
+Golden Gate bridge, as opposed to Oakland.</p>
