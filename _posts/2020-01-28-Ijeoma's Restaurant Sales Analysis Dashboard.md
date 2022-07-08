@@ -17,27 +17,27 @@ background: '/img/Restaurant_background.jpg'
 </ul>
 
 <h4 class="section-heading">Types of Restaurants in Ogudu</h4>
-<img src="https://i.ibb.co/9nNQLZD/Imbalanced-dataset.jpg" width="800" alt="Restaurant_types" border="0">
+<img src="https://i.ibb.co/Mpj5SpC/Restaurant-types.jpg" alt="Restaurant-types" border="0">
 
 <h4 class="section-heading">Most prefered locations</h4>
-
 ***Prefered_Locations***
+<img src="https://i.ibb.co/W0LQ3FJ/Prefered-Locations.jpg" alt="Prefered-Locations" border="0">
+
 
 <h4 class="section-heading">Favourite Cuisines</h4>
+<img src="https://i.ibb.co/sJkw7Lc/Favourite-cuisines.jpg" alt="Favourite-cuisines" border="0">
 
-***Favourite_cousines***
 
 <h4 class="section-heading">The top 10 restaurants per given location, cuisine or rstaurant type</h4>
+<img src="https://i.ibb.co/G2HTrXW/Top-10-restaurants.jpg" alt="Top-10-restaurants" border="0">
 
-***top 10 restaurants***
 
 <h4 class="section-heading">Customer's approach to restaurants: Booking onlne and the No of table booked</h4>
+<img src="https://i.ibb.co/G52h35y/Online-Table-Booking.jpg" alt="Online-Table-Booking" border="0">
 
-***Online_Table_Booking***
 
 <h4 class="section-heading">Average spending of Lagosianss and there Ratings</h4>
-
-***Average spending_Rating***
+<img src="https://i.ibb.co/2YJRvWs/Average-Spending-Rating.jpg" alt="Average-Spending-Rating" border="0">
 
 
 <h4 class="section-heading">Conclusion</h4>
