@@ -33,6 +33,6 @@ background: '/img/Customer_analytics_istockphoto.jpg'
 
 
 <h4>Conclusion</h4>
-<p>In conclusion we are able to determine that the Corporate custormers performs better than other three segments across different years. The major product drive been the Telephone & communication, Tables, office machines, Chairs & Chairmats. Highest perfomance coming from Ontario and NorthWest territories</p>
+<p>In conclusion we are able to determine that the Corporate custormers performs better than the other three segments across different years. The major product drive been the Telephone & communication, Tables, office machines, Chairs & Chairmats. Highest perfomance coming from Ontario and NorthWest territories</p>
 
 <img src="https://i.ibb.co/j39ZKmD/dashboard.jpg" width="900" alt="dashboard" border="0">
