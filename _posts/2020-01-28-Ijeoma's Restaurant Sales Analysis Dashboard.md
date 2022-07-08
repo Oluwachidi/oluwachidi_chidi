@@ -21,23 +21,23 @@ background: '/img/Restaurant_background.jpg'
 
 <h4 class="section-heading">Most prefered locations</h4>
 
-*****Prefered_Locations**********
+***Prefered_Locations***
 
 <h4 class="section-heading">Favourite Cuisines</h4>
 
-*****Favourite_cousines**********
+***Favourite_cousines***
 
 <h4 class="section-heading">The top 10 restaurants per given location, cuisine or rstaurant type</h4>
 
-*****top 10 restaurants**********
+***top 10 restaurants***
 
 <h4 class="section-heading">Customer's approach to restaurants: Booking onlne and the No of table booked</h4>
 
-*****Online_Table_Booking**********
+***Online_Table_Booking***
 
 <h4 class="section-heading">Average spending of Lagosianss and there Ratings</h4>
 
-*****Average spending_Rating**********
+***Average spending_Rating***
 
 
 <h4 class="section-heading">Conclusion</h4>
