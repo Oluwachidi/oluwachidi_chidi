@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ATICG's business KPI Analytics Dashboard"
+title: "ATICG's Customer Analytics Dashboard"
 subtitle: "Analysis of different Cutomer Categories with Power BI"
 background: '/img/Customer_analytics_istockphoto.jpg'
 ---
