@@ -44,7 +44,7 @@ background: '/img/Restaurant_background.jpg'
 
 
 <h4>Conclusion</h4>
-<p>In conclusion we are able to determine that an ideal location for Ijeoma's restaurant will be Sankey Road with average spending of Lagosians over 2.50k. The main competition however will be Dubli - ITC Windsor. Nevertheless, a competitive edge for Ijeoma's restaurant would be to introduce online booking and additional cusines like Finger food, Ice Cream and Beverages. Meanwhile, it is obvious that African Burger does not trend in this area, therefore caution should be taken while introducing African Burger, some sort of advertisement and incentives may help to promote this cusine.</p>
+<p>In conclusion we are able to determine that an ideal location for Ijeoma's restaurant will be Ogudu-Ojota Road with average spending of Lagosians over 2.50k. The main competition however will be Sweet Sensation. Nevertheless, a competitive edge for Ijeoma's restaurant would be to introduce online booking and additional cusines like Finger food, Ice Cream and Beverages. Meanwhile, it is obvious that African Burger does not trend in this area, therefore caution should be taken while introducing African Burger, some sort of advertisement and incentives may help to promote this cusine.</p>
 
 <img src="https://i.ibb.co/9sCZ1N8/Restaurant-Dashboard.jpg" width="900" alt="Restaurant-Dashboard" border="0">
 
