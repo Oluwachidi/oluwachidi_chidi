@@ -7,7 +7,7 @@ background: '/img/Customer_analytics_istockphoto.jpg'
 
 
 <h4>Poject Description</h4>
-<p>The objective of this dashboard is to analyse how each of the customer's segments are perfoming across various metrics like:</p>
+<p>The objective of this dashboard is to analyse how each of the customer's segments are performing across various metrics like:</p>
 <ul>
   <li>Product categories</li>
   <li>Regions</li>
@@ -33,6 +33,6 @@ background: '/img/Customer_analytics_istockphoto.jpg'
 
 
 <h4>Conclusion</h4>
-<p>In conclusion we are able to determine that the Corporate custormers performs better than the other three segments across different years. The major product drive been the Telephone & communication, Tables, office machines, Chairs & Chairmats. Highest perfomance coming from Ontario and NorthWest territories</p>
+<p>In conclusion we are able to determine that the Corporate customers performs better than the other three segments across different years. The major product drive been the Telephone & communication, Tables, office machines, Chairs & Chairmats. Highest perfomance coming from Ontario and NorthWest territories</p>
 
 <img src="https://i.ibb.co/j39ZKmD/dashboard.jpg" width="900" alt="dashboard" border="0">
